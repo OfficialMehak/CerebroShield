@@ -19,7 +19,7 @@ python app.py
 
 4. Open your web browser and go to http://localhost:5000 to access the application.
 
-![Uploading Screenshot 2024-05-11 145012.png…]()
+![screenshot]("C:\Users\Mehakpreet Singh\Downloads\Screenshot 2024-05-11 145012.png")
 
 
 ## Usage
