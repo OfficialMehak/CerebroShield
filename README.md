@@ -19,7 +19,8 @@ python app.py
 
 4. Open your web browser and go to http://localhost:5000 to access the application.
 
-![screenshot]("C:/Users/Mehakpreet Singh/Downloads/Screenshot 2024-05-11 145012.png")
+![Screenshot web app](https://github.com/OfficialMehak/CerebroShield/assets/159048970/4467dcce-c84d-4bc1-a111-bd5d67eca952)
+
 
 
 ## Usage
