@@ -26,8 +26,14 @@ python app.py
 ## Usage
 
 1. Fill out the form with the required information.
+   ![Screenshot 2](https://github.com/OfficialMehak/CerebroShield/assets/159048970/b2ad7020-0cf7-4492-9d09-9befaa8d806d)
+
 2. Click on the "Predict" button.
+   ![Screenshot 3](https://github.com/OfficialMehak/CerebroShield/assets/159048970/19495854-10c5-4812-bb5d-3e45863aa122)
+
 3. The application will display whether the patient is likely to have a stroke or not.
+   ![Screenshot 4](https://github.com/OfficialMehak/CerebroShield/assets/159048970/be45208d-023a-4c39-a79d-1f6bd94ffd11)
+
 
 ## Files
 
