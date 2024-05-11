@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stroke Prediction</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <h1>Stroke Prediction</h1>
+    <form action="{{ url_for('predict') }}" method="post">
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age" required><br><br>
+        
+        <label for="gender">Gender:</label>
+        <select id="gender" name="gender" required>
+            <option value="0">Male</option>
+            <option value="1">Female</option>
+            <option value="2">Other</option>
+        </select><br><br>
+        
+        <label for="hypertension">Hypertension (0 or 1):</label>
+        <input type="number" id="hypertension" name="hypertension" min="0" max="1" required><br><br>
+        
+        <label for="heart_disease">Heart Disease (0 or 1):</label>
+        <input type="number" id="heart_disease" name="heart_disease" min="0" max="1" required><br><br>
+        
+        <label for="ever_married">Ever Married (0 or 1):</label>
+        <input type="number" id="ever_married" name="ever_married" min="0" max="1" required><br><br>
+        
+        <label for="work_type">Work Type:</label>
+        <select id="work_type" name="work_type" required>
+            <option value="0">children</option>
+            <option value="1">Govt_job</option>
+            <option value="2">Never_worked</option>
+            <option value="3">Private</option>
+            <option value="4">Self-employed</option>
+        </select><br><br>
+        
+        <label for="Residence_type">Residence Type (0 or 1):</label>
+        <input type="number" id="Residence_type" name="Residence_type" min="0" max="1" required><br><br>
+        
+        <label for="avg_glucose_level">Average Glucose Level:</label>
+        <input type="number" id="avg_glucose_level" name="avg_glucose_level" required><br><br>
+        
+        <label for="bmi">BMI:</label>
+        <input type="number" id="bmi" name="bmi" required><br><br>
+        
+        <label for="smoking_status">Smoking Status:</label>
+        <select id="smoking_status" name="smoking_status" required>
+            <option value="0">formerly smoked</option>
+            <option value="1">never smoked</option>
+            <option value="2">smokes</option>
+            <option value="3">Unknown</option>
+        </select><br><br>
+        
+        <input type="submit" value="Predict">
+    </form>
+</body>
+</html>
