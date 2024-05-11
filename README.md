@@ -6,15 +6,15 @@ This is a Flask web application for predicting the likelihood of a stroke based 
 
 1. Clone the repository:
 
-git clone https://github.com/OfficialMehak/CerebroShield.git
+   git clone https://github.com/OfficialMehak/CerebroShield.git
 
 2. Install the required Python dependencies:
 
-pip install -r requirements.txt
+   pip install -r requirements.txt
 
 3. Run the Flask application:
 
-python app.py
+   python app.py
 
 
 4. Open your web browser and go to http://localhost:5000 to access the application.
