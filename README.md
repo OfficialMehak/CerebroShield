@@ -1,3 +1,4 @@
+# Stroke Prediction 
 This is a Flask web application for predicting the likelihood of a stroke based on input parameters such as age, gender, hypertension, etc.
 
 ## Setup
